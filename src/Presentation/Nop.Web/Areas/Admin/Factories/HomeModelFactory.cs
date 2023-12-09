@@ -386,7 +386,7 @@ namespace Nop.Web.Areas.Admin.Factories
                     }
                     catch (AggregateException exception)
                     {
-                        //rethrow actual excepion
+                        //rethrow actual exception
                         throw exception.InnerException;
                     }
                 });
